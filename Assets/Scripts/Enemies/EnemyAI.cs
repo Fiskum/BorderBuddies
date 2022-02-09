@@ -19,7 +19,7 @@ public class EnemyAI : MonoBehaviour
     public float sightRange, captureRange;
     public bool playerInSightRange, playerInCaptureRange;
 
-    private void Awake()
+    private void Start()
     {
         player = GameObject.Find("Player1").transform;
         agent = GetComponent<NavMeshAgent>();

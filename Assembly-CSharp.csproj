@@ -56,9 +56,9 @@
     <Compile Include="Assets\Scripts\Player\PlayerSwap.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Player\Player2Movement.cs" />
     <Compile Include="Assets\Scripts\Enemies\Patrol.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Player\Player2Movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -669,6 +669,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NavMeshComponentsEditor.csproj">
+      <Project>{C2CAACAE-F039-354C-463E-9EE02D4E6302}</Project>
+      <Name>NavMeshComponentsEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshComponents.csproj">
+      <Project>{50596E01-ADB2-7D10-924A-6BCDFAD57ED3}</Project>
+      <Name>NavMeshComponents</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
