@@ -23,9 +23,14 @@ public class PlayerMovement : MonoBehaviour
 
     public PlayerSwap swapScript;
 
+    public Animator cageAnimator;
+    bool dead = false;
+    public GameObject cage;
+
     void Start()
     {
         Cursor.visible = false;
+        cage.SetActive(false);
     }
 
     void Update()
@@ -71,6 +76,17 @@ public class PlayerMovement : MonoBehaviour
         if (swapScript.player1Active == true)
         {
             controller.Move(velocity * Time.deltaTime);
+        }
+    }
+
+    public void Captured()
+    {
+        if (dead == false)
+        {
+            dead = true;
+            cage.SetActive(true);
+            controller.enabled = false;
+            cageAnimator.SetBool("Captured", true);
         }
     }
 }

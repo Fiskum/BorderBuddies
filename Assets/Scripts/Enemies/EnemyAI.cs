@@ -13,7 +13,7 @@ public class EnemyAI : MonoBehaviour
     public float walkPointRange;
 
     //Capture
-
+    public PlayerMovement playerScript;
 
     //States
     public float sightRange, captureRange;
@@ -73,5 +73,7 @@ public class EnemyAI : MonoBehaviour
         agent.SetDestination(transform.position);
 
         transform.LookAt(player);
+
+        playerScript.Captured();
     }
 }
