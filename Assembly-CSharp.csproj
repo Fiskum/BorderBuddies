@@ -59,29 +59,6 @@
     <Compile Include="Assets\Scripts\Enemies\Patrol.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Player\Player2Movement.cs" />
-    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\NatureManager.cs" />
-    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\FoliageInteractor.cs" />
-    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\SmoothMouseLook.cs" />
-    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\WaterReflection.cs" />
-    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\Flythrough.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Foliage.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Surface.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_FoliageBillboard.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_CloudCard.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Simple_Foliage.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_GrassTerrain.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Masked_Lit.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\PA_Grid.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_CliffAuto.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Surface_WorldAligned.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\VS_indirect.cginc" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_WorldAlignedBlend.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_StonesDetail.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Surface_Coverage.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Water.shader" />
-    <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Grass.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
