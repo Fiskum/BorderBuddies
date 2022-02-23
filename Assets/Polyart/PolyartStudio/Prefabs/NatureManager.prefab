@@ -46,12 +46,9 @@ MonoBehaviour:
   xSpeed: 0.603
   ySpeed: 0.625
   cloudColor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
-  enableDithering: 0
   fadingDistance: 30
-  ditherBottomLevel: 1
-  ditherFade: 6
-  terrainGrassDitherMin: 1
-  terrainGrassDitherMax: 6
+  minDither: 1.515
+  maxDither: 7.95
   smallWindIntensity: 15.2
   smallWindMultiplier: 0.57
   largeWindIntensity: 20
