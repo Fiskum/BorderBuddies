@@ -53,15 +53,20 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MenuScripts\CamRotate.cs" />
+    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\FoliageInteractor.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerSwap.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\WaterReflection.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\MenuButtons.cs" />
     <Compile Include="Assets\Scripts\Enemies\Patrol.cs" />
+    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\NatureManager.cs" />
+    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\SmoothMouseLook.cs" />
+    <Compile Include="Assets\Polyart\PolyartStudio\Scripts\Flythrough.cs" />
+    <Compile Include="Assets\Scripts\MenuScripts\ControlPanel.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Player\Player2Movement.cs" />
-    <Compile Include="Assets\Scripts\MenuScripts\ControlPanel.cs" />
-    <Compile Include="Assets\Scripts\MenuScripts\CamRotate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Polyart\PolyartStudio\Shaders\Dreamscape_Foliage.shader" />
